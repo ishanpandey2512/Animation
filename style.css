@@ -1,0 +1,32 @@
+html, body, canvas {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  /* overflow: hidden; */
+}
+
+canvas {
+	/* background-color: #FF7457; */
+    border: 1px solid black;
+}
+
+form{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: 1em;
+    left: 0;
+    right: 0;
+}
+
+
+.Signature {
+  position: absolute;
+  z-index: 100;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  line-height: .2;
+  font-size: .7em;
+  font-family: Open Sans, sans-serif;
+}
